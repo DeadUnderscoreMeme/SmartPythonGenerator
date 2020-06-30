@@ -13,7 +13,7 @@ class generator:  #Contains all the functions that create functions and stuff
     ### Decimal - Float Value
     ### Text - String
     ### Array - List of items
-    ### Dictionary - Dictionary of items basic python
+    ### object - Dictionary of items basic python
     ### The other data types will be added as necessary.
 
 
@@ -52,3 +52,9 @@ class generator:  #Contains all the functions that create functions and stuff
 
 
 genObj = generator()
+
+for i in range(1,4):
+    n = input()
+    u = input()
+    vT = input()
+    genObj.genVariable(n,u,vT)
