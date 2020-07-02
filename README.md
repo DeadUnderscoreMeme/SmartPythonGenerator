@@ -9,13 +9,14 @@ the file.
 
 The first goal would be to create the following 
 generator functions implementing best practices:
--[x] Variable Generations
--[ ] Function Generations
--[ ] Classes and file Generations
--[ ] Database Generations
+- [x] Variable Generations
+- [ ] Function Generations
+- [ ] Classes and file Generations
+- [ ] Database Generations
 
 ---
 
 Basic Variable Generation has been completed - generates good practice variable names
-for usage by any python codewriter. Uses camelCase to generate unique names and appends the dataType to the varName to make it obvious to the programmer. Adds a comment to the end of the line as well - to show what the variables mean.
+for usage by any python codewriter. Uses camelCase to generate unique names and appends the dataType to the varName to make it obvious to the programmer. 
+Adds a comment to the end of the line as well - to show what the variables mean.
 
